@@ -1,0 +1,101 @@
+.Pokemoncard{
+    border: 2px solid red;
+    width: 25%;
+    height: 50%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff868;
+    border: 12px solid rgb(101, 101, 40);
+    border-radius: 56px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.Pokemoncard img{
+    height: 500px;
+    width: 500px;
+}
+.Pokemoncard h1{
+    font-size: 50px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokemondetails{
+    font-size: 30px;
+}
+.imageinfo{
+    background-color: #d7d7c9c8;
+    margin-top: 35px;
+    width: 60%;
+    height: 50%;
+    border: 10px solid black;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 764px) {
+    .Pokemoncard{
+        height: 10%;
+        width: 250px;
+        margin-top: 50%;
+        border-radius: 0px;
+        border: 7px solid rgb(101, 101, 40);
+    }
+    .Pokemoncard img{
+        height: 100px;
+        width: 100px;
+    }
+    .Pokemoncard h1{
+        font-size: 25px;
+    }
+    .pokemondetails{
+        font-size: 12px;
+    }
+    .imageinfo{
+        border-radius: 0px;
+        border: 8px solid black;
+    }
+}
+@media (width: 1024px){
+    .Pokemoncard{
+        width: 400px;
+    }
+    .Pokemoncard img{
+        height: 90px;
+        width: 90px;
+    }
+    .Pokemoncard h1{
+        font-size: 34px;
+    }
+    .pokemondetails{
+        font-size: 10px;
+    }
+    .imageinfo{
+        border-radius: 0px;
+        border: 4px solid black;
+    }
+}
+@media (width: 1280px){
+    .Pokemoncard{
+        width: 400px;
+    }
+    .Pokemoncard img{
+        height: 90px;
+        width: 90px;
+    }
+    .Pokemoncard h1{
+        font-size: 34px;
+    }
+    .pokemondetails{
+        font-size: 10px;
+    }
+    .imageinfo{
+        border-radius: 0px;
+        border: 4px solid black;
+    }
+}
